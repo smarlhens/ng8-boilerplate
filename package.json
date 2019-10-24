@@ -20,7 +20,10 @@
     "prettier:scss:check": "prettier --check ./**/*.scss",
     "prettier:scss:write": "prettier --write ./**/*.scss",
     "prettier:json:check": "prettier --check ./**/*.{json,*rc}",
-    "prettier:json:write": "prettier --write ./**/*.{json,*rc}"
+    "prettier:json:write": "prettier --write ./**/*.{json,*rc}",
+    "prettier:check": "npm run prettier:ts:check && npm run prettier:js:check && npm run prettier:scss:check && npm run prettier:json:check",
+    "prettier:write": "npm run prettier:ts:write && npm run prettier:js:write && npm run prettier:scss:write && npm run prettier:json:write",
+    "precommit": "npm run prettier:write && npm run lint:js:fix && npm run lint && ng test --watch=false"
   },
   "private": true,
   "dependencies": {
