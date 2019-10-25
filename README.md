@@ -57,7 +57,13 @@ What things you need to install the software and how to install them :
 
 ### Commitlint
 
-*TODO*
+commitlint checks if your commit messages meet the [conventional commit format](https://conventionalcommits.org).
+
+In general the pattern mostly looks like this:
+```sh
+type(scope?): subject  #scope is optional
+```
+Are you a good `commitizen` ?
 
 ### ESLint
 
