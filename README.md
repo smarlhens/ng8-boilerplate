@@ -1,5 +1,7 @@
 # Angular 8 - Boilerplate
 
+[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.14.
 
 ## Table of contents 
@@ -7,6 +9,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
 - [What's in the box ?](#whats-in-the-box-)
+  - [Commitizen](#commitizen)
   - [Commitlint](#commitlint)
   - [ESLint](#eslint)
   - [Husky](#husky)
@@ -54,6 +57,10 @@ What things you need to install the software and how to install them :
 ---
 
 ## What's in the box ?
+
+### Commitizen
+
+*TODO*
 
 ### Commitlint
 
