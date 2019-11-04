@@ -68,6 +68,8 @@ Use ```git cz``` instead of ```git commit``` to use commitizen.
 
 **Configuration file**: ```.czrc```.
 
+---
+
 ### Commitlint
 
 [commitlint](https://github.com/conventional-changelog/commitlint) checks if your commit messages meet the [conventional commit format](https://conventionalcommits.org).
@@ -80,6 +82,8 @@ type(scope?): subject  #scope is optional
 ```
 Are you a good `commitizen` ?
 
+---
+
 ### ESLint
 
 [ESLint](https://eslint.org/) is a fully pluggable tool for identifying and reporting on patterns in JavaScript.
@@ -88,9 +92,15 @@ Are you a good `commitizen` ?
 
 For more configuration options and details, see the [configuration docs](https://eslint.org/docs/user-guide/configuring).
 
+---
+
 ### Husky
 
-*TODO*
+[Husky](https://github.com/typicode/husky) is a package that helps you create Git hooks easily.
+
+**Configuration file**: ```.huskyrc```.
+
+---
 
 ### Lint-staged
 
