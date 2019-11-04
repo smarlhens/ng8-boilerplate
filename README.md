@@ -104,7 +104,11 @@ For more configuration options and details, see the [configuration docs](https:/
 
 ### Lint-staged
 
-*TODO*
+[Lint-staged](https://github.com/okonet/lint-staged) is a Node.js script that allows you to run arbitrary scripts against currently staged files.
+
+**Configuration file**: ```.lintstagedrc```.
+
+---
 
 ### Prettier
 
