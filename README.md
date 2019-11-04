@@ -66,10 +66,13 @@ Use ```git cz``` instead of ```git commit``` to use commitizen.
 
 [![Add and commit with Commitizen](https://github.com/commitizen/cz-cli/raw/master/meta/screenshots/add-commit.png)](https://github.com/commitizen/cz-cli/raw/master/meta/screenshots/add-commit.png)
 
+**Configuration file**: ```.czrc```.
 
 ### Commitlint
 
 [commitlint](https://github.com/conventional-changelog/commitlint) checks if your commit messages meet the [conventional commit format](https://conventionalcommits.org).
+
+**Configuration file**: ```.commitlintrc```.
 
 In general the pattern mostly looks like this:
 ```sh
@@ -79,7 +82,11 @@ Are you a good `commitizen` ?
 
 ### ESLint
 
-*TODO*
+[ESLint](https://eslint.org/) is a fully pluggable tool for identifying and reporting on patterns in JavaScript.
+
+**Configuration file**: ```.eslintrc```.
+
+For more configuration options and details, see the [configuration docs](https://eslint.org/docs/user-guide/configuring).
 
 ### Husky
 
