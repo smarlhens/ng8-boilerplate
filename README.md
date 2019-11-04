@@ -122,7 +122,9 @@ For more configuration options and details, see the [configuration docs](https:/
 
 ### Stylelint
 
-*TODO*
+[Stylelint](https://stylelint.io/) is a mighty & modern style linter.
+
+**Configuration file**: ```.stylelintrc```.
 
 ---
 
