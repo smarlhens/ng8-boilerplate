@@ -60,11 +60,16 @@ What things you need to install the software and how to install them :
 
 ### Commitizen
 
-*TODO*
+[commitizen](https://github.com/commitizen/cz-cli) is a command line utility that makes it easier to create commit messages following the [conventional commit format](https://conventionalcommits.org) specification.
+
+Use ```git cz``` instead of ```git commit``` to use commitizen.
+
+[![Add and commit with Commitizen](https://github.com/commitizen/cz-cli/raw/master/meta/screenshots/add-commit.png)](https://github.com/commitizen/cz-cli/raw/master/meta/screenshots/add-commit.png)
+
 
 ### Commitlint
 
-commitlint checks if your commit messages meet the [conventional commit format](https://conventionalcommits.org).
+[commitlint](https://github.com/conventional-changelog/commitlint) checks if your commit messages meet the [conventional commit format](https://conventionalcommits.org).
 
 In general the pattern mostly looks like this:
 ```sh
