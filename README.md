@@ -112,7 +112,13 @@ For more configuration options and details, see the [configuration docs](https:/
 
 ### Prettier
 
-*TODO*
+[Prettier](https://prettier.io/) is an opinionated code formatter.
+
+**Configuration file**: ```.prettierrc```.
+
+For more configuration options and details, see the [configuration docs](https://prettier.io/docs/en/configuration.html).
+
+---
 
 ### Stylelint
 
