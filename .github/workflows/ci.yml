@@ -17,8 +17,6 @@ jobs:
       run: npm install
     - name: Lint
       run: npm run lint
-    - name: Stylelint
-      run: npm run lint:scss
     - name: ESLint
       run: npm run lint:js
     - name: Prettier
