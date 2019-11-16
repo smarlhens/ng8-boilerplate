@@ -1,5 +1,6 @@
 # Angular 8 - Boilerplate
 
+[![](https://github.com/smarlhens/ng8-boilerplate/workflows/CI/badge.svg)](https://github.com/smarlhens/ng8-boilerplate/actions?query=workflow%3ACI)
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.14.
@@ -12,6 +13,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
   - [Commitizen](#commitizen)
   - [Commitlint](#commitlint)
   - [ESLint](#eslint)
+  - [GitHub Actions](#github-actions)
   - [Husky](#husky)
   - [Lint-staged](#lint-staged)
   - [Prettier](#prettier)
@@ -91,6 +93,12 @@ Are you a good `commitizen` ?
 **Configuration file**: ```.eslintrc```.
 
 For more configuration options and details, see the [configuration docs](https://eslint.org/docs/user-guide/configuring).
+
+---
+
+### GitHub Actions
+
+*TODO*
 
 ---
 
