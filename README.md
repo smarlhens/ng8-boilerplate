@@ -98,7 +98,9 @@ For more configuration options and details, see the [configuration docs](https:/
 
 ### GitHub Actions
 
-*TODO*
+[GitHub Actions](https://github.com/features/actions) makes it easy to automate all your software workflows, now with world-class CI/CD. Build, test, and deploy your code right from GitHub. Make code reviews, branch management, and issue triaging work the way you want.
+
+**CI workflow file**: [```.github/workflows/ci.yml```](https://github.com/smarlhens/ng8-boilerplate/blob/master/.github/workflows/ci.yml).
 
 ---
 
