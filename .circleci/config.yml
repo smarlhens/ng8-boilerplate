@@ -7,9 +7,9 @@ jobs:
     steps:
       - checkout
       - save_cache:
-      key: v0-repo-{{ .Branch }}-{{ .Environment.CIRCLE_SHA1 }}
-      paths:
-        - ~/ng8-boilerplate
+          key: v0-repo-{{ .Branch }}-{{ .Environment.CIRCLE_SHA1 }}
+          paths:
+            - ~/ng8-boilerplate
   dependencies:
     working_directory: ~/ng8-boilerplate
     docker:
@@ -57,9 +57,9 @@ jobs:
           name: Build
           command: npm run build:prod
       - save_cache:
-        key: v0-build-{{ .Branch }}-{{ .Environment.CIRCLE_SHA1 }}
-        paths:
-          - ~/ng8-boilerplate/dist/ng8-boilerplate
+          key: v0-build-{{ .Branch }}-{{ .Environment.CIRCLE_SHA1 }}
+          paths:
+            - ~/ng8-boilerplate/dist/ng8-boilerplate
   test:
     working_directory: ~/ng8-boilerplate
     docker:
