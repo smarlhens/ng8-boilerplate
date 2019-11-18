@@ -1,0 +1,36 @@
+version: 2.1
+
+jobs:
+  ci:
+    working_directory: ~/ng8-boilerplate
+    docker:
+      - image: circleci/node:12-browsers
+    steps:
+      - checkout
+      - restore_cache:
+          key: ng8-boileplate-{{ .Branch }}-{{ checksum "package-lock.json" }}
+      - run:
+          name: Install dependencies
+          command: npm install
+      - save_cache:
+          key: ng8-boileplate-{{ .Branch }}--{{ checksum "package-lock.json" }}
+          paths:
+            - node_modules
+      - run:
+          name: Lint
+          command: npm run lint
+      - run:
+          name: ESLint
+          command: npm run lint:js
+      - run:
+          name: Prettier
+          command: npm run prettier:check
+      - run:
+          name: Build
+          command: npm run build:prod
+      - run:
+          name: Test
+          command: npm run test:ci
+      - run:
+          name: E2E
+          command: npm run e2e:ci
