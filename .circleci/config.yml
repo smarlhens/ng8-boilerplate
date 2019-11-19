@@ -2,6 +2,7 @@ version: 2
 
 jobs:
   checkout:
+    working_directory: ~/ng8-boilerplate
     docker:
       - image: circleci/node:12-browsers
     steps:
@@ -86,14 +87,10 @@ workflows:
             - checkout
       - lint:
           requires:
-            - checkout
             - dependencies
       - build:
           requires:
-            - checkout
-            - dependencies
             - lint
       - test:
           requires:
-            - checkout
-            - dependencies
+            - build
