@@ -24,7 +24,7 @@ jobs:
           name: Install dependencies
           command: npm install
       - save_cache:
-          key: v0-node-{{ .Branch }}--{{ checksum "package-lock.json" }}
+          key: v0-node-{{ .Branch }}-{{ checksum "package-lock.json" }}
           paths:
             - ~/ng8-boilerplate/node_modules
   lint:
