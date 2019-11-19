@@ -1,7 +1,8 @@
 # Angular 8 - Boilerplate
 
-[![](https://github.com/smarlhens/ng8-boilerplate/workflows/CI/badge.svg)](https://github.com/smarlhens/ng8-boilerplate/actions?query=workflow%3ACI)
+[![GitHub CI](https://github.com/smarlhens/ng8-boilerplate/workflows/CI/badge.svg)](https://github.com/smarlhens/ng8-boilerplate/actions?query=workflow%3ACI)
 [![CircleCI](https://circleci.com/gh/smarlhens/ng8-boilerplate.svg?style=svg)](https://circleci.com/gh/smarlhens/ng8-boilerplate)
+[![Build Status](https://travis-ci.com/smarlhens/ng8-boilerplate.svg?branch=master)](https://travis-ci.com/smarlhens/ng8-boilerplate)
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.14.
@@ -20,6 +21,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
   - [Lint-staged](#lint-staged)
   - [Prettier](#prettier)
   - [Stylelint](#stylelint)
+  - [Travis CI](#travis-ci)
 - [Code scaffolding](#code-scaffolding)
 - [Build](#build)
 - [Running unit tests](#running-unit-tests)
@@ -143,6 +145,12 @@ For more configuration options and details, see the [configuration docs](https:/
 [Stylelint](https://stylelint.io/) is a mighty & modern style linter.
 
 **Configuration file**: ```.stylelintrc```.
+
+---
+
+### Travis CI
+
+*TODO*
 
 ---
 
