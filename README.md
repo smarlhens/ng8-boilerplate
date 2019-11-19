@@ -66,7 +66,11 @@ What things you need to install the software and how to install them :
 
 ### CircleCI
 
-*TODO*
+[CircleCI](https://circleci.com/) automates your software builds, tests, and deployments.
+
+**CircleCI pipeline file**: [```.circleci/config.yml```](https://github.com/smarlhens/ng8-boilerplate/blob/master/.circleci/config.yml).
+
+For more configuration options and details, see the [configuration docs](https://circleci.com/docs/).
 
 ---
 
@@ -78,7 +82,7 @@ Use ```git cz``` instead of ```git commit``` to use commitizen.
 
 [![Add and commit with Commitizen](https://github.com/commitizen/cz-cli/raw/master/meta/screenshots/add-commit.png)](https://github.com/commitizen/cz-cli/raw/master/meta/screenshots/add-commit.png)
 
-**Configuration file**: ```.czrc```.
+**Configuration file**: [```.czrc```](https://github.com/smarlhens/ng8-boilerplate/blob/master/.czrc).
 
 ---
 
@@ -86,7 +90,7 @@ Use ```git cz``` instead of ```git commit``` to use commitizen.
 
 [commitlint](https://github.com/conventional-changelog/commitlint) checks if your commit messages meet the [conventional commit format](https://conventionalcommits.org).
 
-**Configuration file**: ```.commitlintrc```.
+**Configuration file**: [```.commitlintrc```](https://github.com/smarlhens/ng8-boilerplate/blob/master/.commitlintrc).
 
 In general the pattern mostly looks like this:
 ```sh
@@ -100,7 +104,7 @@ Are you a good `commitizen` ?
 
 [ESLint](https://eslint.org/) is a fully pluggable tool for identifying and reporting on patterns in JavaScript.
 
-**Configuration file**: ```.eslintrc```.
+**Configuration file**: [```.eslintrc```](https://github.com/smarlhens/ng8-boilerplate/blob/master/.eslintrc).
 
 For more configuration options and details, see the [configuration docs](https://eslint.org/docs/user-guide/configuring).
 
@@ -118,7 +122,7 @@ For more configuration options and details, see the [configuration docs](https:/
 
 [Husky](https://github.com/typicode/husky) is a package that helps you create Git hooks easily.
 
-**Configuration file**: ```.huskyrc```.
+**Configuration file**: [```.huskyrc```](https://github.com/smarlhens/ng8-boilerplate/blob/master/.huskyrc).
 
 ---
 
@@ -126,7 +130,7 @@ For more configuration options and details, see the [configuration docs](https:/
 
 [Lint-staged](https://github.com/okonet/lint-staged) is a Node.js script that allows you to run arbitrary scripts against currently staged files.
 
-**Configuration file**: ```.lintstagedrc```.
+**Configuration file**: [```.lintstagedrc```](https://github.com/smarlhens/ng8-boilerplate/blob/master/.lintstagedrc).
 
 ---
 
@@ -134,7 +138,7 @@ For more configuration options and details, see the [configuration docs](https:/
 
 [Prettier](https://prettier.io/) is an opinionated code formatter.
 
-**Configuration file**: ```.prettierrc```.
+**Configuration file**: [```.prettierrc```](https://github.com/smarlhens/ng8-boilerplate/blob/master/.prettierrc).
 
 For more configuration options and details, see the [configuration docs](https://prettier.io/docs/en/configuration.html).
 
@@ -144,13 +148,17 @@ For more configuration options and details, see the [configuration docs](https:/
 
 [Stylelint](https://stylelint.io/) is a mighty & modern style linter.
 
-**Configuration file**: ```.stylelintrc```.
+**Configuration file**: [```.stylelintrc```](https://github.com/smarlhens/ng8-boilerplate/blob/master/.stylelintrc).
 
 ---
 
 ### Travis CI
 
-*TODO*
+[Travis CI](https://travis-ci.com/) is a hosted continuous integration service used to build and test software projects hosted at GitHub.
+
+**Travis buildd file**: [```.travis.yml```](https://github.com/smarlhens/ng8-boilerplate/blob/master/.travis.yml).
+
+For more configuration options and details, see the [configuration docs](https://docs.travis-ci.com/).
 
 ---
 
