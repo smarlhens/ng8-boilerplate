@@ -5,6 +5,7 @@
 [![Build Status](https://travis-ci.com/smarlhens/ng8-boilerplate.svg?branch=master)](https://travis-ci.com/smarlhens/ng8-boilerplate)
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
+[![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg)](https://conventionalcommits.org)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.14.
 
