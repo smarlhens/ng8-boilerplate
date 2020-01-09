@@ -6,6 +6,15 @@
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg)](https://conventionalcommits.org)
+[![GitHub issues](https://img.shields.io/github/issues/smarlhens/ng8-boilerplate)](https://github.com/smarlhens/ng8-boilerplate/issues)
+[![GitHub pull requests](https://img.shields.io/github/issues-pr/smarlhens/ng8-boilerplate)](https://github.com/smarlhens/ng8-boilerplate/pulls)
+[![GitHub stars](https://img.shields.io/github/stars/smarlhens/ng8-boilerplate)](https://github.com/smarlhens/ng8-boilerplate/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/smarlhens/ng8-boilerplate)](https://github.com/smarlhens/ng8-boilerplate/network)
+[![GitHub contributors](https://img.shields.io/github/contributors/smarlhens/ng8-boilerplate)](https://github.com/smarlhens/ng8-boilerplate/graphs/contributors)
+[![GitHub license](https://img.shields.io/github/license/smarlhens/ng8-boilerplate)](https://github.com/smarlhens/ng8-boilerplate)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/smarlhens/ng8-boilerplate)
+![GitHub repo size](https://img.shields.io/github/repo-size/smarlhens/ng8-boilerplate)
+[![HitCount](http://hits.dwyl.io/smarlhens/ng8-boilerplate.svg)](http://hits.dwyl.io/smarlhens/ng8-boilerplate)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.14.
 
@@ -140,7 +149,8 @@ For more configuration options and details, see the [configuration docs](https:/
 
 [Prettier](https://prettier.io/) is an opinionated code formatter.
 
-**Configuration file**: [```.prettierrc```](https://github.com/smarlhens/ng8-boilerplate/blob/master/.prettierrc).
+**Configuration file**: [```.prettierrc```](https://github.com/smarlhens/ng8-boilerplate/blob/master/.prettierrc).  
+**Ignore file**: [```.prettierignore```](https://github.com/smarlhens/ng8-boilerplate/blob/master/.prettierignore).  
 
 For more configuration options and details, see the [configuration docs](https://prettier.io/docs/en/configuration.html).
 
