@@ -1,4 +1,7 @@
-# Angular 8 - Boilerplate
+# ⚠️ Moved to [smarlhens/ngx-boilerplate/ng-08](https://github.com/smarlhens/ngx-boilerplate/tree/ng-08)
+
+# Angular 8 - Boilerplate 
+
 
 [![GitHub CI](https://github.com/smarlhens/ng8-boilerplate/workflows/CI/badge.svg)](https://github.com/smarlhens/ng8-boilerplate/actions?query=workflow%3ACI)
 [![CircleCI](https://circleci.com/gh/smarlhens/ng8-boilerplate.svg?style=svg)](https://circleci.com/gh/smarlhens/ng8-boilerplate)
@@ -14,7 +17,6 @@
 [![GitHub license](https://img.shields.io/github/license/smarlhens/ng8-boilerplate)](https://github.com/smarlhens/ng8-boilerplate)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/smarlhens/ng8-boilerplate)
 ![GitHub repo size](https://img.shields.io/github/repo-size/smarlhens/ng8-boilerplate)
-[![HitCount](http://hits.dwyl.io/smarlhens/ng8-boilerplate.svg)](http://hits.dwyl.io/smarlhens/ng8-boilerplate)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.14.
 
